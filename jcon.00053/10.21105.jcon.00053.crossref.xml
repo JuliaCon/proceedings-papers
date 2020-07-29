@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
+  <head>
+    <doi_batch_id>f055797b1a1d6c0cf5acf9142ae31273</doi_batch_id>
+    <timestamp>20200729205012</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>07</month>
+          <year>2020</year>
+        </publication_date>
+        <journal_volume>
+          <volume>1</volume>
+        </journal_volume>
+        <issue>1</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>GlobalSearchRegression.jl: \ Building bridges between Machine Learning and Econometrics in Fat-Data scenarios</title>
+        </titles>
+        
+        <publication_date>
+          <month>07</month>
+          <day>29</day>
+          <year>2020</year>
+        </publication_date>
+        <pages>
+          <first_page>53</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00053</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">https://doi.org/10.5281/zenodo.3962667</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/53</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00053</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00053</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00053.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <unstructured_citation>Bellman, Richard, Adaptive Control Processes: A Guided Tour, 1961, Princeton University Press</unstructured_citation>
+          </citation>
+          <citation key="ref2">
+            <unstructured_citation>Bhlmann, Peter and Van De Geer, Sara, Statistics for high-dimensional data: methods, theory and applications, 2011, Springer-Verlag Berlin Heidelberg</unstructured_citation>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>Yu, Lei and Liu, Huan, Feature selection for high-dimensional data: A fast correlation-based filter solution, In Proceedings of the 20th international conference on machine learning, 2003, The publisher of the proceedings, 856&#x2013;863, https://www.aaai.org/Papers/ICML/2003/ICML03-111.pdf</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <doi>10.1039/A905556H</doi>
+          </citation>
+          <citation key="ref5">
+            <doi>10.1007/3-540-44503-x_27</doi>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>Bol&#xF3;n-Canedo, Ver&#xF3;nica and S&#xE1;nchez-Maro&#xF1;o, Noelia and Alonso-Betanzos, Amparo, Feature selection for high-dimensional data,  Progress in Artificial Intelligence, 2016, Springer-Verlag Berlin Heidelberg</unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <doi>10.1177/1536867x1501500201</doi>
+          </citation>
+          <citation key="ref8">
+            <doi>10.1093/acprof:oso/9780199237197.003.0004</doi>
+          </citation>
+          <citation key="ref9">
+            <doi>10.1257/jep.28.2.3</doi>
+          </citation>
+          <citation key="ref10">
+            <doi>10.1046/j.0305-9049.2003.00096.x</doi>
+          </citation>
+          <citation key="ref11">
+            <unstructured_citation>A survey on feature selection methods, Computers &amp; Electrical Engineering, 40, 1, 16&#x2013;28, 2014, 0045-7906, Chandrashekar, Girish and Sahin, Ferat</unstructured_citation>
+          </citation>
+          <citation key="ref12">
+            <unstructured_citation>Marinucci, Maximiliano, Automatic prediction and model selection, Facultad de Ciencias Econ&#xF3;micas y Empresariales, Universidad Complutense de Madrid, Ph.D. Thesis, 2008</unstructured_citation>
+          </citation>
+          <citation key="ref13">
+            <doi>10.1016/0014-2921(81)90058-1</doi>
+          </citation>
+          <citation key="ref14">
+            <doi>10.1111/j.2044-8317.1992.tb00992.x</doi>
+          </citation>
+          <citation key="ref15">
+            <unstructured_citation>Castle, Jennifer, Empirical modeling and model selection for forecasting inflation in a non-stationary world, Nuffield College University of Oxford, Ph.D. Thesis, 2006</unstructured_citation>
+          </citation>
+          <citation key="ref16">
+            <doi>10.1080/00036840902845418</doi>
+          </citation>
+          <citation key="ref17">
+            <doi>10.1038/nmeth.4642</doi>
+          </citation>
+          <citation key="ref18">
+            <unstructured_citation>08834237, http://www.jstor.org/stable/2676803, Hoeting, Jennifer A. and Madigan, David and Raftery, Adrian E. and Volinsky, Chris T., Statistical Science, 4, 382&#x2013;401, Institute of Mathematical Statistics, Bayesian Model Averaging: A Tutorial, 14, 1999</unstructured_citation>
+          </citation>
+          <citation key="ref19">
+            <unstructured_citation>09727671, http://www.jstor.org/stable/25053511, Abramovich, Felix and Angelini, Claudia, Sankhy&#x101;: The Indian Journal of Statistics (2003-2007), 3, 436&#x2013;460, Springer, Bayesian Maximum a posteriori Multiple Testing Procedure, 68, 2006</unstructured_citation>
+          </citation>
+          <citation key="ref20">
+            <doi>10.1145/1465482.1465560</doi>
+          </citation>
+          <citation key="ref21">
+            <unstructured_citation>Comparison of static and dynamic load balancing in grid computing, Prajapati, Mr Ramesh and Rathod, Mr Dushyantsinh and Khanna, Samrat, International Journal For Technological Research In Engineering, 2015</unstructured_citation>
+          </citation>
+          <citation key="ref22">
+            <doi>10.1007/3-540-46502-2_8</doi>
+          </citation>
+          <citation key="ref23">
+            <doi>10.1561/1900000036</doi>
+          </citation>
+          <citation key="ref24">
+            <doi>10.1080/15598608.2012.695705</doi>
+          </citation>
+          <citation key="ref25">
+            <doi>10.2172/205045</doi>
+          </citation>
+          <citation key="ref26">
+            <doi>10.1016/b978-0-12-803738-6.00006-9</doi>
+          </citation>
+          <citation key="ref27">
+            <unstructured_citation>Implicit schemes and decompositions, Jameson, Antony and Turkel, Eli, Mathematics of Computation, 37, 156, 385&#x2013;397, 1981</unstructured_citation>
+          </citation>
+          <citation key="ref28">
+            <unstructured_citation>Cache Memory: An Analysis on Optimization Techniques, Ahmed, Muhammad Waqas and Shah, Munam Ali, International Journal of Computer and IT, 4, 2, 414&#x2013;418, 2015</unstructured_citation>
+          </citation>
+          <citation key="ref29">
+            <doi>10.1145/1168918.1168877</doi>
+          </citation>
+          <citation key="ref30">
+            <doi>10.1093/comjnl/4.3.265</doi>
+          </citation>
+          <citation key="ref31">
+            <doi>10.1016/0041-5553(63)90168-X</doi>
+          </citation>
+          <citation key="ref32">
+            <unstructured_citation>Parallel k-means clustering for gene expression data on snow, Deb, Briti and Srirama, Satish Narayana, International Journal of Computer Applications, 71, 24, 2013, Citeseer</unstructured_citation>
+          </citation>
+          <citation key="ref33">
+            <unstructured_citation>Review of matrix decomposition techniques for signal processing applications, Agarwal, Monika and Mehra, Rajesh, Int. Journal of Engineering Research and Applications, 4, 1, 90&#x2013;93, 2014</unstructured_citation>
+          </citation>
+          <citation key="ref34">
+            <doi>10.1007/3-540-31720-1_2</doi>
+          </citation>
+          <citation key="ref35">
+            <unstructured_citation>Machine learning and causal inference for policy evaluation, Athey, Susan, Proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining, 5&#x2013;6, 2015, ACM</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
