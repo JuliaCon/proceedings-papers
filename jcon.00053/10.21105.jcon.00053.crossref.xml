@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
   <head>
-    <doi_batch_id>7da40a836e324eb91741f19ff0bc5c61</doi_batch_id>
-    <timestamp>20200729205201</timestamp>
+    <doi_batch_id>90fb22274b04a335850d98fbd62cb9a2</doi_batch_id>
+    <timestamp>20200730164301</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -26,9 +26,9 @@
           <year>2020</year>
         </publication_date>
         <journal_volume>
-          <volume>1</volume>
+          <volume>2</volume>
         </journal_volume>
-        <issue>1</issue>
+        <issue>13</issue>
       </journal_issue>
       <journal_article publication_type="full_text">
         <titles>
@@ -37,7 +37,7 @@
         
         <publication_date>
           <month>07</month>
-          <day>29</day>
+          <day>30</day>
           <year>2020</year>
         </publication_date>
         <pages>
