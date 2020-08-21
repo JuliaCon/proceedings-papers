@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.0" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
+  <head>
+    <doi_batch_id>96510dcbb48ca5b1246f6ad0a35fbb57</doi_batch_id>
+    <timestamp>20200821114441</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>08</month>
+          <year>2020</year>
+        </publication_date>
+        <journal_volume>
+          <volume>1</volume>
+        </journal_volume>
+        <issue>1</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>Interoperating Deep Learning models with ONNX.jl</title>
+        </titles>
+        
+        <publication_date>
+          <month>08</month>
+          <day>21</day>
+          <year>2020</year>
+        </publication_date>
+        <pages>
+          <first_page>59</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00059</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">https://doi.org/10.5281/zenodo.3994216</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/59</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00059</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00059</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00059.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1137/141000671</doi>
+          </citation>
+          <citation key="ref2">
+            <unstructured_citation>Bai, Junjie and Lu, Fang and Zhang, Ke and others, ONNX: Open Neural Network Exchange, 2019, GitHub, GitHub repository, https://github.com/onnx/onnx, 94d238d96e3fb3a7ba34f03c284b9ad3516163be</unstructured_citation>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems, Abadi, Mart&#xED;n and Agarwal, Ashish and Barham, Paul and Brevdo, Eugene and Chen, Zhifeng and Citro, Craig and Corrado, Greg S. and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and Ghemawat, Sanjay and Goodfellow, Ian and Harp, Andrew and Irving, Geoffrey and Isard, Michael and Jia, Yangqing and Jozefowicz, Rafal and Kaiser, Lukasz and Kudlur, Manjunath and Levenberg, Josh and Mane, Dan and Monga, Rajat and Moore, Sherry and Murray, Derek and Olah, Chris and Schuster, Mike and Shlens, Jonathon and Steiner, Benoit and Sutskever, Ilya and Talwar, Kunal and Tucker, Paul and Vanhoucke, Vincent and Vasudevan, Vijay and Viegas, Fernanda and Vinyals, Oriol and Warden, Pete and Wattenberg, Martin and Wicke, Martin and Yu, Yuan and Zheng, Xiaoqiang, 2016, 1603.04467, arXiv, cs.DC</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <unstructured_citation>MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems, Chen, Tianqi and Li, Mu and Li, Yutian and Lin, Min and Wang, Naiyan and Wang, Minjie and Xiao, Tianjun and Xu, Bing and Zhang, Chiyuan and Zhang, Zheng, 2015, 1512.01274, arXiv, cs.DC</unstructured_citation>
+          </citation>
+          <citation key="ref5">
+            <unstructured_citation>Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor, arXiv preprint arXiv:1408.5093, Caffe: Convolutional Architecture for Fast Feature Embedding, 2014</unstructured_citation>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>MLIR: A Compiler Infrastructure for the End of Moore&#x2019;s Law, Lattner, Chris and Amini, Mehdi and Bondhugula, Uday and Cohen, Albert and Davis, Andy and Pienaar, Jacques and Riddle, River and Shpeisman, Tatiana and Vasilache, Nicolas and Zinenko, Oleksandr, 2020, 2002.11054, arXiv, cs.PL</unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <unstructured_citation>Chen, Tianqi and Moreau, Thierry and Jiang, Ziheng and Shen, Haichen and Yan, Eddie and Wang, Leyuan and Hu, Yuwei and Ceze, Luis and Guestrin, Carlos and Krishnamurthy, Arvind, 2018, feb, , TVM: End-to-End Optimization Stack for Deep Learning, 2</unstructured_citation>
+          </citation>
+          <citation key="ref8">
+            <unstructured_citation>Li, Mu, 2017, oct, , TVM: End-to-End Optimization Stack for Deep Learning, https://aws.amazon.com/blogs/machine-learning/introducing-nnvm-compiler-a-new-open-end-to-end-compiler-for-ai-frameworks/, 10</unstructured_citation>
+          </citation>
+          <citation key="ref9">
+            <unstructured_citation>ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E, Advances in Neural Information Processing Systems 25, Pereira, F. and Burges, C. J. C. and Bottou, L. and Weinberger, K. Q., 1097&#x2013;1105, 2012, Curran Associates, Inc., http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</unstructured_citation>
+          </citation>
+          <citation key="ref10">
+            <unstructured_citation>SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and &lt;0.5MB model size, Iandola, Forrest N. and Han, Song and Moskewicz, Matthew W. and Ashraf, Khalid and Dally, William J. and Keutzer, Kurt, 2016, 1602.07360, arXiv, cs.CV</unstructured_citation>
+          </citation>
+          <citation key="ref11">
+            <unstructured_citation>Densely Connected Convolutional Networks, Huang, Gao and Liu, Zhuang and van der Maaten, Laurens and Weinberger, Kilian Q., 2016, 1608.06993, arXiv, cs.CV</unstructured_citation>
+          </citation>
+          <citation key="ref12">
+            <doi>10.1109/cvpr.2016.90</doi>
+          </citation>
+          <citation key="ref13">
+            <doi>10.1109/cvpr.2015.7298594</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
