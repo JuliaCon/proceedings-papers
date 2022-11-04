@@ -22,7 +22,7 @@ jobs:
     env:
       GH_ACCESS_TOKEN: ${{ secrets.BOT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-      GH_REPO: openjournals/joss-reviews
+      GH_REPO: JuliaCon/proceedings-review
       ISSUE_ID: ${{ github.event.inputs.issue_id }}
       DEFAULT_ERROR: ":warning: [Error prepararing paper acceptance](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}?check_suite_focus=true)."
     steps:
@@ -33,14 +33,14 @@ jobs:
           repository_url: ${{ github.event.inputs.repository_url }}
           branch: ${{ github.event.inputs.branch }}
           issue_id: ${{ github.event.inputs.issue_id }}
-          journal: joss
+          journal: jcon
           compile_mode: accepted
       - name: Upload files to papers repo
         id: upload-files
         uses: xuanxu/upload-files-action@main
         with:
-          papers_repo: openjournals/joss-papers
-          branch_prefix: joss
+          papers_repo: JuliaCon/proceedings-papers
+          branch_prefix: jcon
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
           jats_path: ${{ steps.generate-files.outputs.jats_path}}
@@ -49,9 +49,9 @@ jobs:
         id: open-pr
         uses: xuanxu/deposit-pull-request-action@main
         with:
-          papers_repo: openjournals/joss-papers
+          papers_repo: JuliaCon/proceedings-papers
           papers_repo_main_branch: master
-          branch_prefix: joss
+          branch_prefix: jcon
           issue_id: ${{ github.event.inputs.issue_id }}
           mode: dry-run
       - name: Validate metadata files
@@ -64,7 +64,7 @@ jobs:
       - name: Reply message
         if: ${{ success() }}
         run: |
-          gh issue comment ${{ github.event.inputs.issue_id }} --body ":wave: @openjournals/joss-eics, this paper is ready to be accepted and published.
+          gh issue comment ${{ github.event.inputs.issue_id }} --body ":wave: @JuliaCon/Editors, this paper is ready to be accepted and published.
 
           Check final proof :point_right: ${{ steps.open-pr.outputs.pr_url}}
 

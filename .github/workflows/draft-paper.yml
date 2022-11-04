@@ -9,7 +9,7 @@ on:
         description: 'Git branch where the paper Markdown file is'
         required: false
       issue_id:
-        description: 'The issue number of the submission in the JOSS reviews repo'
+        description: 'The issue number of the submission in the JCON reviews repo'
         required: true
 jobs:
   pdf-generation:
@@ -18,7 +18,7 @@ jobs:
     env:
       GH_ACCESS_TOKEN: ${{ secrets.BOT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-      GH_REPO: openjournals/joss-reviews
+      GH_REPO: JuliaCon/proceedings-review
     steps:
       - name: Compile Paper
         id: generate-files
@@ -27,13 +27,13 @@ jobs:
           repository_url: ${{ github.event.inputs.repository_url }}
           branch: ${{ github.event.inputs.branch }}
           issue_id: ${{ github.event.inputs.issue_id }}
-          journal: joss
+          journal: jcon
       - name: Upload PDF file to papers repo
         id: upload-pdf
         uses: xuanxu/upload-files-action@main
         with:
-          papers_repo: openjournals/joss-papers
-          branch_prefix: joss
+          papers_repo: JuliaCon/proceedings-papers
+          branch_prefix: jcon
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
       - name: Reply message
