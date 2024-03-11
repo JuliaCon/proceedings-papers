@@ -76,7 +76,17 @@ jobs:
           journal_secret: ${{ secrets.JCON_SECRET }}
           issue_id: ${{ github.event.inputs.issue_id }}
           paper_path: ${{ steps.generate-files.outputs.paper_file_path}}
-      - name: Tweet
+      - name: Sleep for 300 seconds
+        run: sleep 300
+        shell: bash
+      - name: Citation.cff file info
+        uses: xuanxu/citation-file-action@main
+        with:
+          citation_file_path: ${{ steps.generate-files.outputs.citation_file_path}}
+          issue_id: ${{ github.event.inputs.issue_id }}
+          reviews_repo: JuliaCon/proceedings-review
+          gh_token: ${{ secrets.BOT_TOKEN }}
+      - name: Post to social media
         uses: xuanxu/acceptance-tweet-action@main
         with:
           journal_name: "JCON"
@@ -86,6 +96,10 @@ jobs:
           twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
           twitter_access_token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          twitter_user: ${{ secrets.TWITTER_USER }}
+          mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          mastodon_instance_url: ${{ secrets.MASTODON_INSTANCE_URL }}
+          mastodon_user: ${{ secrets.MASTODON_USER }}
           reviews_repo: JuliaCon/proceedings-review
           issue_id: ${{ github.event.inputs.issue_id }}
           gh_token: ${{ secrets.BOT_TOKEN }}
@@ -97,7 +111,7 @@ jobs:
           Here's what you must now do:
 
           0. Check final PDF and Crossref metadata that was deposited :point_right: ${{steps.pull-request.outputs.pr_url}}
-          1. Wait a couple of minutes, then verify that the paper DOI resolves [https://doi.org/${{steps.oj-deposit.outputs.paper_doi}}](https://doi.org/${{steps.oj-deposit.outputs.paper_doi}})
+          1. Wait five minutes, then verify that the paper DOI resolves [https://doi.org/${{steps.oj-deposit.outputs.paper_doi}}](https://doi.org/${{steps.oj-deposit.outputs.paper_doi}})
           2. If everything looks good, then close this review issue.
           3. Party like you just published a paper! 🎉🌈🦄💃👻🤘
 
