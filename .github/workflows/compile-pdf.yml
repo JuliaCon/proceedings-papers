@@ -1,6 +1,6 @@
 name: Compile paper
 on:
-  pull_request:
+  workflow_dispatch:
 jobs:
   compile-paper:
     runs-on: ubuntu-latest
