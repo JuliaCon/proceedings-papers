@@ -6,7 +6,7 @@ on:
         description: 'URL of the repository containing the paper file'
         required: true
       branch:
-        description: 'Git branch where the paper Markdown file is'
+        description: 'Git branch where the paper source file is'
         required: false
       issue_id:
         description: 'The issue number of the submission in the JCON reviews repo'
