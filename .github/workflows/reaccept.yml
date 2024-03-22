@@ -24,13 +24,11 @@ jobs:
     steps:
       - name: Compile Paper
         id: generate-files
-        uses: xuanxu/paper-action@main
+        uses: openjournals/gh-action-juliacon-pdf-generation@main
         with:
           repository_url: ${{ github.event.inputs.repository_url }}
           branch: ${{ github.event.inputs.branch }}
           issue_id: ${{ github.event.inputs.issue_id }}
-          journal: jcon
-          compile_mode: accepted
       - name: Update paper files
         id: update-files
         uses: xuanxu/update-files-action@main
@@ -39,15 +37,7 @@ jobs:
           branch_prefix: jcon
           issue_id: ${{ github.event.inputs.issue_id }}
           pdf_path: ${{ steps.generate-files.outputs.pdf_path}}
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
           crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
-      - name: Validate metadata files
-        id: validate-xml
-        uses: xuanxu/validate-xml-files-action@main
-        with:
-          jats_path: ${{ steps.generate-files.outputs.jats_path}}
-          crossref_path: ${{ steps.generate-files.outputs.crossref_path}}
-          validation_mode: strict
       - name: Create and Merge Pull Request
         id: pull-request
         uses: xuanxu/deposit-pull-request-action@main
