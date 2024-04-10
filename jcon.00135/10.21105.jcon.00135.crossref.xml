@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>e294ba1c3fafcb52055b4bcc1f6b7af9</doi_batch_id>
+    <timestamp>20240410034329</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>4</month>
+          <year>2024</year>
+        </publication_date>
+        <journal_volume>
+          <volume>6</volume>
+        </journal_volume>
+        <issue>58</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>FlowFPX: Nimble Tools for Debugging Floating-Point Exceptions</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Taylor</given_name>
+            <surname>Allred</surname>
+            <ORCID>http://orcid.org/0009-0000-7238-1816</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Xinyi</given_name>
+            <surname>Li</surname>
+            <ORCID>http://orcid.org/0009-0005-7276-7715</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Ashton</given_name>
+            <surname>Wiersdorf</surname>
+            <ORCID>http://orcid.org/0000-0001-5524-7930</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Ben</given_name>
+            <surname>Greenman</surname>
+            <ORCID>http://orcid.org/0000-0001-7078-9287</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Ganesh</given_name>
+            <surname>Gopalakrishnan</surname>
+            <ORCID>http://orcid.org/0000-0002-4161-9278</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>4</month>
+          <day>10</day>
+          <year>2024</year>
+        </publication_date>
+        <pages>
+          <first_page>135</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00135</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/135</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00135</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00135</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00135.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1007/978-3-031-08751-6_9</doi>
+          </citation>
+          <citation key="ref2">
+            <doi>10.1109/IEEESTD.1985.82928</doi>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>Low-Precision Climate Computing: Preserving Information despite Fewer Bits, Kl&#xF6;wer, Milan, https://ora.ox.ac.uk/objects/uuid:1158e44a-7faf-45a0-8ab1-73c91fd694a6, 2023-05-12, University of Oxford, 2021</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <doi>10.1029/2020MS002246</doi>
+          </citation>
+          <citation key="ref5">
+            <unstructured_citation>The Art of Computer Programming, Volume 2: Seminumerical Algorithms, Knuth, Donald Ervin, 3rd, Addison-Wesley, 978-0201896848, QA76.6 .K64 1997, 1997</unstructured_citation>
+          </citation>
+          <citation key="ref6">
+            <doi>10.1109/MCSE.2014.90</doi>
+          </citation>
+          <citation key="ref7">
+            <doi>10.11588/ans.2015.100.20553</doi>
+          </citation>
+          <citation key="ref8">
+            <doi>10.1515/jnum-2012-0013</doi>
+          </citation>
+          <citation key="ref9">
+            <doi>10.1145/3330345.3330346</doi>
+          </citation>
+          <citation key="ref10">
+            <doi>10.1002/0471028959</doi>
+          </citation>
+          <citation key="ref11">
+            <doi>10.21105/joss.02018</doi>
+          </citation>
+          <citation key="ref12">
+            <doi>10.5281/ZENODO.5115765</doi>
+          </citation>
+          <citation key="ref13">
+            <doi>10.1109/MCSE.2014.11</doi>
+          </citation>
+          <citation key="ref14">
+            <doi>10.1145/2737924.2737959</doi>
+          </citation>
+          <citation key="ref15">
+            <doi>10.1145/3586183.3606819</doi>
+          </citation>
+          <citation key="ref16">
+            <doi>10.1109/IPDPS.2007.370254</doi>
+          </citation>
+          <citation key="ref17">
+            <doi>10.1145/3369583.3392673</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
