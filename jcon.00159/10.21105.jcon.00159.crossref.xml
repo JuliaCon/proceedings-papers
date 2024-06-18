@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>204c01728e7148fa759511b96459173b</doi_batch_id>
+    <timestamp>20240618073309</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>6</month>
+          <year>2024</year>
+        </publication_date>
+        <journal_volume>
+          <volume>6</volume>
+        </journal_volume>
+        <issue>60</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>MINDFul.jl: A Framework for Intent-driven Multi-Domain Network coordination</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Filippos</given_name>
+            <surname>Christou</surname>
+            <ORCID>http://orcid.org/0000-0001-5181-378X</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>6</month>
+          <day>18</day>
+          <year>2024</year>
+        </publication_date>
+        <pages>
+          <first_page>159</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00159</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/159</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00159</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00159</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00159.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1109/COMST.2022.3215919</doi>
+          </citation>
+          <citation key="ref2">
+            <doi>10.1109/JPROC.2014.2371999</doi>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>draft-contreras-nmrg-interconnection-intents-03, Internet-Draft, Internet Engineering Task Force, Internet Engineering Task Force, Work in Progress, https://datatracker.ietf.org/doc/draft-contreras-nmrg-interconnection-intents/03/, Contreras, Luis M. and Lucente, Paolo, Interconnection Intents, 7, 2022, oct, 24, This memo introduces the use case of the usage of intents for expressing advance interconnection features, further than traditional IP peering., 10</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <doi>10.1364/JOCN.5.000210</doi>
+          </citation>
+          <citation key="ref5">
+            <unstructured_citation>Christou, Filippos and Enderle, Tobias and Witt, Arthur, Photonic Networks; 23th ITG-Symposium, Towards a Hybrid Architecture by Introducing Coherent Pluggable Transceivers in IP-Optical Core Networks with Optical Cross-Connects, 2022, , , 1-8, </unstructured_citation>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>Christou, Filippos and Kirstaedter, Andreas, Photonic Networks; 24th ITG-Symposium, Grooming Connectivity Intents in IP-Optical Networks Using Directed Acyclic Graphs, 2023, , , 1-4, </unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <unstructured_citation>Christou, Filippos and Kirst&#xE4;dter, Andreas, (accepted) 33rd International Telecommunication Networks and Applications Conference (ITNAC), Using Intent Directed Acyclic Graphs in Multi-Domain IP-Optical Networks, 2023, , , </unstructured_citation>
+          </citation>
+          <citation key="ref8">
+            <unstructured_citation>White paper: OpenZR+ 400G Digital Coherent Optics for Multi-Haul, OpenZR+ Multi-Source Agreement, access control, security, contracts, Szumo, sep, 2020, https://openzrplus.org/site/assets/files/1074/openzrplus_whitepaper_-_sept_29_2020_final.pdf, Accessed on 28.03.2022, 9</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
