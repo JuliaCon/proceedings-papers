@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>532b97e41ab23f00e7b46e29009bd482</doi_batch_id>
-    <timestamp>20241008005457</timestamp>
+    <doi_batch_id>eccb1a9d3018b38fcc3cd9e9dfd900c0</doi_batch_id>
+    <timestamp>20241031193104</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -47,13 +47,13 @@
           </person_name>
           <person_name sequence="additional" contributor_role="author">
             <given_name>Ludovic</given_name>
-            <surname>Räss</surname>
+            <surname>R&#xE4;ss</surname>
             <ORCID>http://orcid.org/0000-0002-1136-899X</ORCID>
           </person_name>
         </contributors>
         <publication_date>
           <month>10</month>
-          <day>8</day>
+          <day>31</day>
           <year>2024</year>
         </publication_date>
         <pages>
