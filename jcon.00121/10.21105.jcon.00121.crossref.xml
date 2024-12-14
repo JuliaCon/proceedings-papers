@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>38bb064f2cb7ca6684789757b678724f</doi_batch_id>
+    <timestamp>20241214094411</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>12</month>
+          <year>2024</year>
+        </publication_date>
+        <journal_volume>
+          <volume>6</volume>
+        </journal_volume>
+        <issue>66</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>JustSayIt.jl: A Fresh Approach to Open Source Voice Assistant Development</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Samuel</given_name>
+            <surname>Omlin</surname>
+            <ORCID>http://orcid.org/0000-0001-8969-5619</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>12</month>
+          <day>14</day>
+          <year>2024</year>
+        </publication_date>
+        <pages>
+          <first_page>121</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00121</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">10.5281/zenodo.14057584</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/121</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00121</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00121</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00121.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <unstructured_citation>The Kaldi Speech Recognition Toolkit, Povey, Daniel and Ghoshal, Arnab and Boulianne, Gilles and Burget, Lukas and Glembek, Ondrej and Goel, Nagendra and Hannemann, Mirko and Motlicek, Petr and Qian, Yanmin and Schwarz, Petr and Silovsky, Jan and Stemmer, Georg and Vesely, Karel, IEEE Signal Processing Society, IEEE 2011 workshop on automatic speech recognition and understanding, 2011, IEEE Catalog No.: CFP11SRW-USB, http://infoscience.epfl.ch/record/192584</unstructured_citation>
+          </citation>
+          <citation key="ref2">
+            <unstructured_citation>Vosk Speech Recognition Toolkit: Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node, Shmyrev, Nickolay V. and other contributors, 2020, \urlhttps://github.com/alphacep/vosk-api</unstructured_citation>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>PyCall.jl: Package to call Python functions from the Julia language, Johnson, Steven G and contributors, 2022, \urlhttps://github.com/JuliaPy/PyCall.jl</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <unstructured_citation>Conda.jl: Conda managing Julia binary dependencies, Fraux, Guillaume, 2015, \urlhttps://github.com/JuliaPy/Conda.jl</unstructured_citation>
+          </citation>
+          <citation key="ref5">
+            <unstructured_citation>MacroTools.jl: a library of tools for working with Julia code and expressions, Innes, Mike and Computing, Julia and contributors., 2015, \urlhttps://github.com/FluxML/MacroTools.jl</unstructured_citation>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>sounddevice: Play and Record Sound with Python, Geier, Matthias, 2015, \urlhttps://github.com/spatialaudio/python-sounddevice</unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <unstructured_citation>pynput, Palmer, Moses, 2015, \urlhttps://github.com/spatialaudio/python-sounddevice</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
