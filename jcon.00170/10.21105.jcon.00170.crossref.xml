@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>5ca96202ca0918956acb2566be716d70</doi_batch_id>
+    <timestamp>20250120063826</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>1</month>
+          <year>2025</year>
+        </publication_date>
+        <journal_volume>
+          <volume>7</volume>
+        </journal_volume>
+        <issue>67</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>DMRGenie: Graphical interface for entanglement renormalization</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Kiana</given_name>
+            <surname>Gallagher</surname>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Aaron</given_name>
+            <surname>Dayton</surname>
+            <ORCID>http://orcid.org/0009-0003-7573-6143</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Drew</given_name>
+            <surname>Leske</surname>
+            <ORCID>http://orcid.org/0009-0009-0617-9500</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Sarah</given_name>
+            <surname>Huber</surname>
+            <ORCID>http://orcid.org/0000-0002-3200-0262</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Thomas</given_name>
+            <surname>Baker</surname>
+            <ORCID>http://orcid.org/0000-0002-3142-0767</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>1</month>
+          <day>20</day>
+          <year>2025</year>
+        </publication_date>
+        <pages>
+          <first_page>170</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00170</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/170</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00170</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00170</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00170.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <unstructured_citation>Quantum computation and quantum information, Nielsen, Michael A and Chuang, Isaac L, 2010, Cambridge university press</unstructured_citation>
+          </citation>
+          <citation key="ref2">
+            <doi>10.1103/PhysRevLett.99.220405</doi>
+          </citation>
+          <citation key="ref3">
+            <unstructured_citation>Renormalization algorithms for quantum-many body systems in two and higher dimensions, Verstraete, Frank and Cirac, J Ignacio, arXiv preprint cond-mat/0407066, 2004</unstructured_citation>
+          </citation>
+          <citation key="ref4">
+            <doi>10.1103/physrevlett.99.120601</doi>
+          </citation>
+          <citation key="ref5">
+            <doi>10.1103/physrevb.73.094423</doi>
+          </citation>
+          <citation key="ref6">
+            <doi>10.1103/RevModPhys.55.583</doi>
+          </citation>
+          <citation key="ref7">
+            <unstructured_citation>Angular momentum: an approach to combinatorial space-time, Penrose, Roger, Quantum theory and beyond, 151, 1971, Citeseer</unstructured_citation>
+          </citation>
+          <citation key="ref8">
+            <doi>10.1119/1.17394</doi>
+          </citation>
+          <citation key="ref9">
+            <doi>10.1139/cjp-2019-0611</doi>
+          </citation>
+          <citation key="ref10">
+            <unstructured_citation>DMRGenie, \urlhttps://dmrgenie.rs.uvic.ca/, Gallagher, Kiana and Dayton, Aaron and Baker, Thomas E.</unstructured_citation>
+          </citation>
+          <citation key="ref11">
+            <unstructured_citation>DMRjulia I. Basic construction of a tensor network library for the density matrix renormalization group, Baker, Thomas E and Thompson, Martin P, arXiv preprint arXiv:2109.03120, 2021</unstructured_citation>
+          </citation>
+          <citation key="ref12">
+            <doi>10.1088/0143-0807/24/3/701</doi>
+          </citation>
+          <citation key="ref13">
+            <unstructured_citation>Field theories of condensed matter physics, Fradkin, Eduardo, 2013, Cambridge University Press</unstructured_citation>
+          </citation>
+          <citation key="ref14">
+            <unstructured_citation>Baker, Thomas E., DMRjulia, \urlhttps://github.com/bakerte/DMRJtensor.jl, 2020-27-19, 2020</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
