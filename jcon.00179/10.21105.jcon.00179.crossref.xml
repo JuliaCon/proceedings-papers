@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>9b035de0dc7b52c17e9a685dc2841521</doi_batch_id>
+    <timestamp>20250414191021</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>4</month>
+          <year>2025</year>
+        </publication_date>
+        <journal_volume>
+          <volume>7</volume>
+        </journal_volume>
+        <issue>70</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>ExponentialFamilyManifolds.jl: Representing exponential families as Riemannian manifolds</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Mykola</given_name>
+            <surname>Lukashchuk</surname>
+            <ORCID>http://orcid.org/0009-0003-3011-0825</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Dmitry</given_name>
+            <surname>Bagaev</surname>
+            <ORCID>http://orcid.org/0000-0001-9655-7986</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Albert</given_name>
+            <surname>Podusenko</surname>
+            <ORCID>http://orcid.org/0000-0002-8768-9765</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>&#x130;smail</given_name>
+            <surname>&#x15E;en&#xF6;z</surname>
+            <ORCID>http://orcid.org/0000-0001-7355-2138</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Bert</given_name>
+            <surname>de Vries</surname>
+            <ORCID>http://orcid.org/0000-0003-0839-174X</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>4</month>
+          <day>14</day>
+          <year>2025</year>
+        </publication_date>
+        <pages>
+          <first_page>179</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00179</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">10.5281/zenodo.15196175</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/179</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00179</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00179</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00179.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1137/141000671</doi>
+          </citation>
+          <citation key="ref2">
+            <doi>10.5281/zenodo.15101588</doi>
+          </citation>
+          <citation key="ref3">
+            <doi>10.1145/3618296</doi>
+          </citation>
+          <citation key="ref4">
+            <doi>10.21105/joss.03866</doi>
+          </citation>
+          <citation key="ref5">
+            <doi>10.1162/089976698300017746</doi>
+          </citation>
+          <citation key="ref6">
+            <doi>10.1080/01621459.2017.1285773</doi>
+          </citation>
+          <citation key="ref7">
+            <doi>10.1561/2200000001</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
