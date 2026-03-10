@@ -6,8 +6,8 @@
            version="5.3.1"
            xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
   <head>
-    <doi_batch_id>f051cf0e2f8c6bc93fc10fc81b15597b</doi_batch_id>
-    <timestamp>20260307192644</timestamp>
+    <doi_batch_id>6dd92aae1e5a83787c02957601c493cb</doi_batch_id>
+    <timestamp>20260310090615</timestamp>
     <depositor>
       <depositor_name>JOSS Admin</depositor_name>
       <email_address>admin@theoj.org</email_address>
@@ -37,26 +37,41 @@
       </journal_issue>
       <journal_article publication_type="full_text">
         <titles>
-          <title>My JuliaCon proceeding</title>
+          <title>Bringing Julia to Health: A Concise Overview of JuliaHealth</title>
         </titles>
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>1st</given_name>
-            <surname>Author</surname>
-            <ORCID>http://orcid.org/0000-0003-1361-440X</ORCID>
+            <given_name>Jacob</given_name>
+            <surname>Zelko</surname>
+            <ORCID>http://orcid.org/0000-0003-4531-1614</ORCID>
           </person_name>
           <person_name sequence="additional" contributor_role="author">
-            <given_name>2nd</given_name>
-            <surname>Author</surname>
+            <given_name>Carlos</given_name>
+            <surname>Castillo-Passi</surname>
+            <ORCID>http://orcid.org/0000-0001-6227-0477</ORCID>
           </person_name>
           <person_name sequence="additional" contributor_role="author">
-            <given_name>3rd</given_name>
-            <surname>Author</surname>
+            <given_name>Jakub</given_name>
+            <surname>Mitura</surname>
+            <ORCID>http://orcid.org/0000-0003-1823-6823</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Divyansh</given_name>
+            <surname>Goyal</surname>
+            <ORCID>http://orcid.org/0009-0000-2231-3030</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Kosuri</given_name>
+            <surname>Indu</surname>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Jay</given_name>
+            <surname>Landge</surname>
           </person_name>
         </contributors>
         <publication_date>
           <month>3</month>
-          <day>7</day>
+          <day>10</day>
           <year>2026</year>
         </publication_date>
         <pages>
