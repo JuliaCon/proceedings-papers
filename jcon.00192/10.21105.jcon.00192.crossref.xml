@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>fdbb2c6858c629ba5616791827d88947</doi_batch_id>
+    <timestamp>20260414081357</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>4</month>
+          <year>2026</year>
+        </publication_date>
+        <journal_volume>
+          <volume>8</volume>
+        </journal_volume>
+        <issue>82</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>RationalFunctionApproximation.jl: Rational Approximation On Discrete and Continuous Domains</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Tobin</given_name>
+            <surname>Driscoll</surname>
+            <ORCID>http://orcid.org/0000-0002-1490-2545</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>4</month>
+          <day>14</day>
+          <year>2026</year>
+        </publication_date>
+        <pages>
+          <first_page>192</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00192</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/192</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00192</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00192</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00192.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <doi>10.1137/1.9781611976083</doi>
+          </citation>
+          <citation key="ref2">
+            <doi>10.1137/S0036144502417715</doi>
+          </citation>
+          <citation key="ref3">
+            <doi>10.1145/3594252.3594254</doi>
+          </citation>
+          <citation key="ref4">
+            <doi>10.4171/8ecm/16</doi>
+          </citation>
+          <citation key="ref5">
+            <doi>10.1137/23M1570508</doi>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>Chebfun Guide, Driscoll, T. A. and Hale, N. and Trefethen, L. N., 2014, Pafnuty Publications</unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <doi>10.1137/17M1132409</doi>
+          </citation>
+          <citation key="ref8">
+            <unstructured_citation>Interpolations.jl, Kittisopikul, M. and Holy, T. E. and Aschan, T., \urlhttps://github.com/JuliaMath/Interpolations.jl, 2025, may, 5</unstructured_citation>
+          </citation>
+          <citation key="ref9">
+            <unstructured_citation>KernelInterpolation.jl: Multivariate (Generalized) Scattered Data Interpolation with Symmetric (Conditionally) Positive Definite Kernel Functions in Arbitrary Dimension, Lampert, J., 2024, jun, \urlhttps://dx.doi.org/10.5281/zenodo.12599880, 10.5281/zenodo.12599880, 6</unstructured_citation>
+          </citation>
+          <citation key="ref10">
+            <doi>10.1137/16m1106122</doi>
+          </citation>
+          <citation key="ref11">
+            <doi>10.1137/19M1281897</doi>
+          </citation>
+          <citation key="ref12">
+            <doi>10.1307/mmj/1028999029</doi>
+          </citation>
+          <citation key="ref13">
+            <unstructured_citation>A Practical Framework for Infinite-Dimensional Linear Algebra, Proceedings of the 1st Workshop for High Performance Technical Computing in Dynamic Languages &#x2013; HPTCDL &#x2018;14, Olver, S. and Townsend, A., 2014</unstructured_citation>
+          </citation>
+          <citation key="ref14">
+            <doi>10.1137/090774707</doi>
+          </citation>
+          <citation key="ref15">
+            <doi>10.1007/s00211-020-01168-2</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
