@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>d86455e54a2e74cb7cd061ee49a1054e</doi_batch_id>
+    <timestamp>20260415230735</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>JuliaCon Proceedings</full_title>
+        <abbrev_title>JCON</abbrev_title>
+        <issn media_type="electronic">2642-4029</issn>
+        <doi_data>
+          <doi>10.21105/jcon</doi>
+          <resource>https://proceedings.juliacon.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>4</month>
+          <year>2026</year>
+        </publication_date>
+        <journal_volume>
+          <volume>8</volume>
+        </journal_volume>
+        <issue>82</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>CliffordNumbers.jl: a Julia package for numeric primitives for geometry</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Brandon</given_name>
+            <surname>Flores</surname>
+            <ORCID>http://orcid.org/0000-0003-0816-4491</ORCID>
+          </person_name>
+          <person_name sequence="additional" contributor_role="author">
+            <given_name>Victor</given_name>
+            <surname>Zavala</surname>
+            <ORCID>http://orcid.org/0000-0002-5744-7378</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>4</month>
+          <day>15</day>
+          <year>2026</year>
+        </publication_date>
+        <pages>
+          <first_page>205</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">10.21105/jcon.00205</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi"></rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/JuliaCon/proceedings-review/issues/205</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>10.21105/jcon.00205</doi>
+          <resource>https://proceedings.juliacon.org/papers/10.21105/jcon.00205</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://proceedings.juliacon.org/papers/10.21105/jcon.00205.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="ref1">
+            <unstructured_citation>Die lineale Ausdehnungslehre ein neuer Zweig der Mathematik: dargestellt und durch Anwendungen auf die &#xFC;brigen Zweige der Mathematik, wie auch auf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erl&#xE4;utert, Grassmann, H., Wissenschaft der extensiven Gr&#xF6;sse, https://books.google.com/books?id=bKgAAAAAMAAJ, 1844, O. Wigand</unstructured_citation>
+          </citation>
+          <citation key="ref2">
+            <unstructured_citation>Clifford Algebra to Geometric Calculus: A Unified Language for Mathematics and Physics, Hestenes, D. and Sobczyk, G., 9789400962927, 84008235, Fundamental Theories of Physics, https://books.google.com/books?id=8yVrCQAAQBAJ, 2012, Springer Netherlands</unstructured_citation>
+          </citation>
+          <citation key="ref3">
+            <doi>10.1007/978-1-4612-0089-5_2</doi>
+          </citation>
+          <citation key="ref4">
+            <unstructured_citation>The Morgan Kaufmann Series in Computer Graphics, Geometric Algebra for Computer Science: An Object-Oriented Approach to Geometry, 978-0-08-055310-8, Geometric Algebra for Computer Science, https://geometricalgebra.org/, English, Morgan Kaufmann, Dorst, Leo and Fontijne, Daniel and Mann, Stephen, 2010</unstructured_citation>
+          </citation>
+          <citation key="ref5">
+            <doi>10.1119/1.1571836</doi>
+          </citation>
+          <citation key="ref6">
+            <unstructured_citation>A Guided Tour to the Plane-Based Geometric Algebra PGA, https://bivector.net/PGA4CS.pdf, English, 2026-03-26, University of Amsterdam, Dorst, Leo and De Keninck, Steven, mar, 2022, 3</unstructured_citation>
+          </citation>
+          <citation key="ref7">
+            <doi>10.1007/s00006-016-0731-5</doi>
+          </citation>
+          <citation key="ref8">
+            <doi>10.1016/j.aim.2019.106959</doi>
+          </citation>
+          <citation key="ref9">
+            <doi>10.1007/978-1-4615-0813-7_4</doi>
+          </citation>
+          <citation key="ref10">
+            <unstructured_citation>Pencils and Set Operators In 3D CGA, https://hal.science/hal-04569529, Geometric Algebra can be considered as a language that unifies mathematics, physics and computer sciences etc. Among other, CGA is of special interest for its powerful transformations and its ability to represent any hypersphere or hyperplane. Moreover, CGA is an algebra capable of representing pencils of spheres. This paper presents a reinterpretation of every objects of 3D CGA as pencils of spheres and introduces set operators on its elements (i.e. union, intersection, complement, etc). As an application, these operators are used to find the smallest tangent sphere of two skew lines., 2026-03-27, Chomicki, Cl&#xE9;ment and Breuils, St&#xE9;phane and Biri, Venceslas and Nozick, Vincent, may, 2024, Clifford Algebra, Conformal Geometric Algebra (CGA), Conformal Mapping, Geometric Algebra, Pencil, Skew Lines, working paper or preprint, HAL PDF Full Text:/home/brain/Zotero/storage/23UNKCXW/Chomicki et al. - 2024 - Pencils and Set Operators In 3D CGA.pdf:application/pdf, 5</unstructured_citation>
+          </citation>
+          <citation key="ref11">
+            <unstructured_citation>Geometric Algebra for Physicists, Doran, C. and Lasenby, A., 9780521480222, 2008271629, https://books.google.com/books?id=2X3vAAAAMAAJ, 2007, Cambridge University Press</unstructured_citation>
+          </citation>
+          <citation key="ref12">
+            <doi>10.1007/978-3-030-61864-3_47</doi>
+          </citation>
+          <citation key="ref13">
+            <unstructured_citation>Clifford Algebras and Spinors, Lounesto, P., 9780521005517, 01025396, Cambridge Handbooks for Language Teachers, https://books.google.com/books?id=DTecU6UpkSgC, 2001, Cambridge University Press</unstructured_citation>
+          </citation>
+          <citation key="ref14">
+            <doi>10.1007/s00006-015-0625-y</doi>
+          </citation>
+          <citation key="ref15">
+            <doi>10.5281/zenodo.3857096</doi>
+          </citation>
+          <citation key="ref16">
+            <doi>10.18637/jss.v098.i16</doi>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
